@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { CommentComponent } from './comment/comment.component';
 import { UploadComponent } from './upload/upload.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UploadComponent } from './upload/upload.component';
     LoginComponent,
     RegisterComponent,
     CommentComponent,
-    UploadComponent
+    UploadComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
